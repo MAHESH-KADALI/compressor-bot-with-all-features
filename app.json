@@ -1,0 +1,79 @@
+{
+  "name": "Bindhu Encoder Bot",
+  "description": "Telegram Video Encoder Bot.",
+  "keywords": [
+    "encoder-bot",
+    "python",
+    "hevc",
+    "compressor"
+  ],
+  "repository": "https://github.com/MAHESH-KADALI/compressor-bot-with-all-features",
+  "logo": "https://graph.org/file/f202cb384bab0514cd003.jpg",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID",
+      "value": ""
+    },
+    "APP_ID":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": ""
+    },
+    "MONGO_URI": {
+      "description": "Paste your mongo db url",
+      "value": "url"
+    },
+    "SESSION_NAME":{
+      "description": "Enter your DATABASE_NAME ",
+      "value": "Cluster0"
+    },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
+    "EVERYONE_CHATS":{
+      "description": "the users who can't use bot.",
+      "value": ""
+    },
+    "INDEX_URL":{
+      "description": "Index url for drive uploads",
+      "value": ""
+    },
+    "DRIVE_DIR":{
+      "description": "(Optional) Temporary download directory to keep downloaded files.",
+      "value": ""
+    },
+    "DOWNLOAD_DIR": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "BindhuEncoder/downloads/"
+    },
+    "ENCODE_DIR": {
+      "description": "(Optional) Temporary encode directory to keep encoded files.",
+      "value": "BindhuEncoder/encodes/"
+    },
+    "SUDO_USERS": {
+      "description": ".",
+      "value": "",
+      "required": false
+    },
+    "LOG_CHANNEL": {
+      "description": "bot logs",
+      "value": "-100",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "eco"
+    }
+  }
+}
