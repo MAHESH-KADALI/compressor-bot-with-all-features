@@ -40,7 +40,7 @@
     },
     "INDEX_URL":{
       "description": "Index url for drive uploads",
-      "value": ""
+      "value": "https://drive.google.com/drive/folders/1--DO9sMSkkaJvlycJvKrNao1WRnz7rjx?usp=sharing"
     },
     "DRIVE_DIR":{
       "description": "(Optional) Temporary download directory to keep downloaded files.",
