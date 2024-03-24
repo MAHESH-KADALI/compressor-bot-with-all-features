@@ -12,19 +12,19 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "6376375994:AAEpWIL3DwCZAsFSwwUQIIOUERpdGHoaZgY"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": ""
+      "value": "1596559467"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "4857766"
     },
     "MONGO_URI": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://MAHESH-KADALI:MAHESH-KADALI@2008@cluster0.ho2e00f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "MONGO_DB_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -32,7 +32,7 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "6c3c6facf5598a4b318e138f8c407028"
     },
     "EVERYONE_CHATS":{
       "description": "the users who can't use bot.",
@@ -44,7 +44,7 @@
     },
     "DRIVE_DIR":{
       "description": "(Optional) Temporary download directory to keep downloaded files.",
-      "value": ""
+      "value": "1--DO9sMSkkaJvlycJvKrNao1WRnz7rjx"
     },
     "DOWNLOAD_DIR": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -56,12 +56,12 @@
     },
     "SUDO_USERS": {
       "description": "co-owner of bot",
-      "value": "",
+      "value": "1956698956",
       "required": false
     },
     "LOG_CHANNEL": {
       "description": "bot logs",
-      "value": "-100",
+      "value": "-1001963446260",
       "required": true
     }
   },
