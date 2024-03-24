@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+*.session
+BindhuEncoder/utils/extras/logs.txt
+encoderbot.session-journal
