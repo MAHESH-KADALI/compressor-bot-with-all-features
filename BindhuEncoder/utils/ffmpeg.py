@@ -171,7 +171,7 @@ async def encode(filepath, message, msg):
     # Metadata Watermark
     m = await db.get_metadata_w(message.from_user.id)
     if m:
-        metadata = '-metadata title=Weeb-Zone.Blogspot.com -metadata:s:v title=Weeb-Zone.Blogspot.com -metadata:s:a title=Weeb-Zone.Blogspot.com'
+        metadata = '-metadata title=mahesh-anime.blogspot.com -metadata:s:v title= -metadata:s:a title=mahesh-anime.blogspot.com'
     else:
         metadata = ''
 
@@ -193,7 +193,7 @@ async def encode(filepath, message, msg):
 
 #    ffmpeg_filter = ':'.join([
 #        'drawtext=fontfile=/app/bot/utils/watermark/font.ttf',
-#        f"text='Weeb-Zone.Blogspot.com'",
+#        f"text='mahesh-anime.blogspot.com'",
 #        f'fontcolor=white',
 #        'fontsize=main_h/20',
 #        f'x=40:y=40'
@@ -217,7 +217,7 @@ async def encode(filepath, message, msg):
             watermark += '-vf '
         else:
             watermark += ','
-        watermark += 'subtitles=VideoEncoder/utils/extras/watermark.ass'
+        watermark += 'subtitles=BindhuEncoder/utils/extras/watermark.ass'
 
     # Hard Subs
     if h:
