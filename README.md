@@ -1,1 +1,1 @@
-![VIDEO ENCODER BOT](https://graph.org/VIDEO-ENCODER-BOT-03-24)
+![VIDEO ENCODER BOT](https://graph.org/file.jpg)
