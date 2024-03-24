@@ -3,7 +3,7 @@ import glob
 LICENSE_HEADER = '''
 # BindhuEncoder - a telegram bot for encode/compress videos 
 format.
-# Copyright (c) 2021 MAHESH-KADALI/compressor-bot-with-all-features
+# Copyright (c) 2023 MAHESH-KADALI/compressor-bot-with-all-features
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published
@@ -20,7 +20,7 @@ format.
 '''.strip()
 
 missing_header = False
-for file in glob.iglob('VideoEncoder/**/*.py', recursive=True):
+for file in glob.iglob('BindhuEncoder/**/*.py', recursive=True):
     with open(file, 'r') as fileobj:
         file_header = fileobj.read(len(LICENSE_HEADER))
     if file_header != LICENSE_HEADER:
